@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="BatchRunTest(failed)">
+    <classes>
+      <class name="org.selenium_Advanced.NewTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="BeforeTest"/>
+          <include name="afterTest"/>
+          <include name="register"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- org.selenium_Advanced.NewTest -->
+      <class name="org.selenium_Advanced.LoginTestcase">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- org.selenium_Advanced.LoginTestcase -->
+    </classes>
+  </test> <!-- BatchRunTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

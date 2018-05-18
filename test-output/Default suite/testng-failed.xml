@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="utility.LoginTestMe">
+        <methods>
+          <include name="afterTest"/>
+          <include name="select_Category"/>
+          <include name="beforeTest"/>
+          <include name="test_me_login" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- utility.LoginTestMe -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
